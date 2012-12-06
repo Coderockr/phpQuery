@@ -4,17 +4,22 @@
     "keywords": ["phpQuery", "lib"],
     "type": "library",
     "homepage": "https://github.com/duvanmonsa/phpQuery",
-    "license": "Apache2",
+    "license": "Mit",
     "authors": [
         {
             "name": "Duvanmonsa",
-            "homepage": "https://github.com/duvanmonsa"
+            "email": "duvanmonsa@gmail.com",
+            "homepage": "https://github.com/duvanmonsa",
+            "role": "Developer"
         }
     ],
     "require": {
         "php": ">=5.2.0",
     },
     "autoload": {
-        "classmap": ["src"]
+       "psr-0": {
+            "Phpquery": "src"
+        }
     }
 }
+

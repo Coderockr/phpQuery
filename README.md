@@ -1,4 +1,4 @@
 phpQuery
 ========
 
-phpQuery
+Project phpQuery

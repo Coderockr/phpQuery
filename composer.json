@@ -1,21 +1,18 @@
 {
-    "name": "coderockr/php-query",
+    "name": "kield01/php-query",
     "description": "phpQuery",
-    "keywords": ["phpQuery", "lib"],
+    "keywords": [
+        "phpQuery",
+        "lib"
+    ],
     "type": "library",
-    "homepage": "https://github.com/coderockr/phpQuery",
+    "homepage": "https://github.com/KielD-01/phpQuery",
     "license": "Mit",
     "authors": [
         {
-            "name": "Duvanmonsa",
-            "email": "duvanmonsa@gmail.com",
-            "homepage": "https://github.com/duvanmonsa",
-            "role": "Developer"
-        },
-        {
-            "name": "Elton Minetto",
-            "email": "eminetto@coderockr.com",
-            "homepage": "https://github.com/eminetto",
+            "name": "Roman Kozin",
+            "email": "romanko95.rk@gmail.com",
+            "homepage": "https://github.com/KielD-01",
             "role": "Developer"
         }
     ],
@@ -23,7 +20,7 @@
         "php": ">=5.3.0"
     },
     "autoload": {
-       "psr-0": {
+        "psr-0": {
             "phpQuery": "src"
         }
     }
